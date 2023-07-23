@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+
+  <div class="main-container">
+
+    <h1 class="title">
+      The classic TicTacToe game:
+    </h1>
+
+    <section class="header">
+      <p><label for="name1" class="label123">Jogador1 / X: </label> <input type="text" id="name1" maxlength="10"
+          required></p>
+
+      <p><label for="name2" class="label123">Jogador2 / O: </label> <input type="text" id="name2" maxlength="10"
+          required></p>
+
+      <button id="startButton">Start the game</button>
+    </section>
+
+    <section class="footer">
+      <table class="boardGame">
+        <tr>
+          <td><button id="1" disabled class="button"></button></td>
+          <td><button id="2" disabled class="button"></button></td>
+          <td><button id="3" disabled class="button"></button></td>
+        </tr>
+        <tr>
+          <td><button id="4" disabled class="button"></button></td>
+          <td><button id="5" disabled class="button"></button></td>
+          <td><button id="6" disabled class="button"></button></td>
+        </tr>
+        <tr>
+          <td><button id="7" disabled class="button"></button></td>
+          <td><button id="8" disabled class="button"></button></td>
+          <td><button id="9" disabled class="button"></button></td>
+        </tr>
+      </table>
+
+      <h4 id="currentPlayer"></h4>
+    </section>
+
+    <button id="resetButton">Reset the game</button>
+
+  </div>
+
+</body>
+
+</html>
